@@ -10,4 +10,6 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', include('main.urls')),
+    url(r'^Books/', include('books.urls')),
+    url(r'^Author/', include('author.urls')),
 )

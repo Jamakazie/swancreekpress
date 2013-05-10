@@ -1,0 +1,7 @@
+{% extends 'templates.html'}
+
+{% block main %}
+	<div> 
+		Author information
+	</div>
+{% endblock %}

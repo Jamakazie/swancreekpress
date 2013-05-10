@@ -1,0 +1,12 @@
+{% extends 'template.html' %}
+
+{% block main %}
+	<div> 
+		Swan Creen Press is a small publishing company created out of Toledo Ohio.  It has published such books as:
+		<ul>
+			<li> <a href='/books/MoreThanAGame/'>More Than A Game</a></li>
+			<li> <a href='/books/TheTownThatNeverStared/'>The Town That Never Stared</a></li>
+			<li> <a href='/books/PenaltyKick/'>Penalty Kick</a></li>
+		</ul>
+	</div>
+{% endblock %}

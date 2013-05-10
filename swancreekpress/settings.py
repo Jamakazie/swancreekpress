@@ -27,7 +27,8 @@ TEMPLATE_DEBUG = True
 TEMPLATE_DIRS = (
 	BASE_DIR + "/templates",
 	BASE_DIR + "/main",
-	BASE_DIR + "/author"
+	BASE_DIR + "/author",
+	BASE_DIR + "/books",
 )
 
 ALLOWED_HOSTS = []

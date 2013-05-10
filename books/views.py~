@@ -1,0 +1,12 @@
+from django.shortcuts import render,render_to_response
+from django.template import RequestContext
+
+# Create your views here.
+def morethanagame(request):
+	context = {}
+	context['description'] = 'more than a game is an awesome book :D'
+	return render_to_response('book.html', context, context_instance = RequestContext(request))
+def thetownthatneverstared(request):
+	pass
+def penaltykick(request):
+	pass
