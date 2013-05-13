@@ -12,4 +12,5 @@ urlpatterns = patterns('',
     url(r'^$', include('main.urls')),
     url(r'^Books/', include('books.urls')),
     url(r'^Author/', include('author.urls')),
+    url(r'^favicon\.ico$', 'django.views.generic.simple.redirect_to', {'url' : '/static/img/favicon.ico'}),
 )

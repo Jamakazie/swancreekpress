@@ -1,6 +1,12 @@
 {% extends 'template.html' %}
+{% block SEO %}
+<title> {{title}} </title>
+<meta name="keywords" content="Swan Creen Press, {{title}}, Terence O'Leary, Young Adult Novel, Toledo, Toledo Book, Highschool Book, Highschool Novel" />
+<meta name="description" content ="{{title}}:  {{description}}" />
+{% endblock %}
 
 {% block main %}
+	<h2> {{title}} </h2>
 	<div id='description'>
 		<p>
 			{{description}}
